@@ -277,7 +277,7 @@ body main .section2 .items .item {
   background-repeat: no-repeat;
   width: 28em;
   height: 38em;
-  background-image: url("/images/item.png");
+  background-image: url("/rinho/images/item.png");
   position: relative;
 }
 
@@ -295,7 +295,7 @@ body main .section2 .items .item1 {
   width: 28em;
   height: 38em;
   position: relative;
-  background-image: url("/images/item1.png");
+  background-image: url("/rinho/images/item1.png");
 }
 
 body main .section2 .items .item1 h2 {
@@ -313,7 +313,7 @@ body main .section2 .items .item1 .white-bg {
 }
 
 body main .section2 .items .item2 {
-  background-image: url("/images/item2.png");
+  background-image: url("/rinho/images/item2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -358,7 +358,7 @@ body main .section2 .buttons .dif:hover {
 
 body main .section3 {
   padding-left: 8em;
-  background-image: url("/images/section3-bg.jpg");
+  background-image: url("/rinho/images/section3-bg.jpg");
   background-size: cover;
   margin-top: 18em;
   padding-top: 7em;
