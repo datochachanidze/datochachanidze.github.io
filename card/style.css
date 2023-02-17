@@ -1,0 +1,74 @@
+body{
+    background-color: pink;
+}
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 1em;
+    font-size: 16px;
+    padding: 2em;
+    background-color: white;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.img:hover{
+    transform: scale(1.25);
+    transition: 1.2s;
+}
+.flexbox h2{
+    font-size: 2rem;
+}
+.flexbox h3{
+    font-size: 1.5rem;
+}
+.inline {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+
+
+}
+.red {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid black;
+}
+.blue {
+        width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    border: 1px solid black;
+}
+.black {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+.buttons button{
+    width: 20em;
+}
+.btn1 {
+    padding: 1em 2em;
+    background-color: orange;
+}
+.btn2 {
+    padding: 1em 2em;
+}
