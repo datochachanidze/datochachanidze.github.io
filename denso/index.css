@@ -1,0 +1,503 @@
+body{
+    font-family: "poppins";
+    font-weight: 400;
+    margin: 0;
+    max-width: 2000px;
+}
+button:hover{
+    opacity: 0.8;
+
+}
+.header{
+    background-image: url("plane-170272_1920.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    filter: drop-shadow(0px 9px 12px rgba(13, 3, 3, 0.14));
+    background-color: #22b36c;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 10% 3% 10%;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    line-height: 41px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+header button{
+    border-style: none;
+    color: white;
+    background-color: #22b36c;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: uppercase;
+}
+
+header .logo{
+    background-image: url(./icons/air-freight-icon.png);
+        background-repeat: no-repeat;
+        background-size: 42px;
+        height: 42px;
+        display: inline-block;
+        padding-left: 56px;
+        text-transform: uppercase;
+        font-weight: 700;
+}
+
+                                                                  /* end header */
+.search-box input{
+    font-size: 17px;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    color: black;
+}
+
+.section-title::after{
+    content: '';
+    display: block;
+    width: 25px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #22b36c;
+    margin: 0px auto 0 auto;
+}
+
+.maine{
+    margin: auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    filter: drop-shadow(0px 9px 12px rgba(13, 3, 3, 0.14));
+    background-color: #222b3c;
+    padding: 1% 10% 1% 10%;
+}
+#firstchild{
+ 
+    width: 70px;
+    outline: 16px solid #22b36c;
+    background-color: #22b36c;
+
+
+    
+}
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+                                                               /* transport start */
+.transport{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 200px;  
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+}
+.transport1{
+    width: 40%;
+}
+.transport1 h1{
+    color: #ffffff;
+    border-left: 5px solid green;
+
+}
+.transport1 p{
+    color: #ffffff;
+}
+.transport1 button{
+    background-color: #22b36c;
+    color: #ffffff;
+    padding: 1.5% 4% 1.5% 4%;
+}
+                                                                  /* transport1 end */
+.transport2{
+    width: 40%;
+    background-color: rgb(43, 98, 52,0.7);
+    padding: 1% 5% 1% 5%;
+
+
+}
+.transport2 h5{
+    color: #ffffff;
+    margin-top: 3px;
+}
+.transport2 h3{
+    color: #ffffff;
+    margin-top: 3px;
+}
+.transport2 input{
+    display: block;
+    width: 80%;
+    padding: 1%;
+    margin-top: 15px;
+}
+.transport2 button{
+    color: #ffffff;
+    background-color: #222b3c;
+    padding: 1% 5% 1% 5%;
+    margin-top: 20px ;
+
+}
+.arrows{
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.arrow1 button{
+    background-color: #22b36c;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    border-style: none;
+}
+.arrow2 button{
+    background-color: #222b3c;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    border-style: none;
+}
+.section1 h1{
+    font-size: 40px;
+    line-height: 104px;
+    text-transform: uppercase;
+    color: #060707;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    
+}
+.section1 hr{
+    width: 50px;
+    height: 5px;
+    background-color: #22b36c;
+    margin-top: -50px;
+    border-radius: 5px;
+
+}
+
+
+                                                       /* main start */
+                                                     
+.section1 p{
+    
+    margin: auto;
+}
+.services p{
+    margin: auto;
+    text-align: center;
+}
+.service{
+    text-align: center;
+}
+.services{
+    text-align: center;
+}
+.services-logos{
+    display: flex;
+    justify-content: center;
+
+}
+.service-logo{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border-style: none;
+    background-color: #22b36c;
+    margin: 20px;
+}
+.forbutton button{
+    padding: 7px 17px 7px 17px;
+    background-color: #222b3c;
+    color: #ffffff;
+
+
+}
+.forbutton{
+    text-align: center;
+}
+                                   /* section2 start */
+.section2{
+    display: flex;
+    background-color: #f0efef;
+    justify-content: end;
+}
+.abouttransport{
+    width: 42%;
+    max-width: 700px;
+    background-color: #f0efef;
+    padding-left: 30px;
+}
+.section2 hr{
+    width: 25px ;
+    height: 5px;
+    background-color: #22b36c;
+    float: left;
+    margin-top: -20px;
+    border-radius: 5px;
+}
+.abouttransport-image{
+    background-image: url("section2.png");
+    width: 42%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.abouttransport-btn button{
+    padding: 7px 17px 7px 17px;
+    background-color: #222b3c;
+    color: #f0efef;
+}
+                                                  /* section2 end */
+.section3{
+    font-size: small;
+    
+}
+.section3 h1{
+    text-align: center;
+}
+.section3 hr{
+    width: 25px;
+    height: 5px;
+    background-color: #22b36c;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+.cards{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    
+
+}
+.card{
+    width: 400px;
+    height: 500px;
+    background-size: contain;
+    margin-right: 25px;
+    border: 3px solid rgba(36, 35, 35,0.1);
+    border-radius: 25px;
+
+
+}
+.card:hover{
+    border: 5px solid #22b36c;
+    transition: 2s;
+}
+.card img{
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    border-radius: 25px;
+    
+}
+.sep p{
+    text-align: center;
+    
+
+    
+}
+.sep{
+    background-color: #22b36c;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    position: relative;
+    left: 45%;
+
+    
+}
+.section3-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.section3-button button{
+    padding: 8px 20px 8px 20px;
+    background-color: #222b3c;
+    color: #f0efef;
+}
+                                                /* .section4 start  */
+.section4{
+    background-image: url("plane-170272_1920\ \(1\).jpg");
+    color: #f0efef;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.testimonial{
+    background-color: rgba(38, 126, 17, 0.7);
+    padding: 90px 90px;
+}
+.consectetur1{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial h1{
+    text-align: center;
+}
+.testimonial hr{
+    width: 25px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-top: -20px
+}
+.testimonial1{
+    width: 80%;
+    background-color: #f0efef;
+    color: #060707;
+    padding: 20px;
+}
+.testimonial1 span{
+    color: #1eb92b;
+}
+#arrowleft{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #222b3c;
+    color: #ffffff;
+}
+#arrowright{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #ffffff;
+    color: #000000;
+}
+                                       /* section4 end  */
+.section5 h1{
+    text-align: center;
+}
+.section5 hr{
+    width: 25px;
+    height: 5px;
+    border-radius: 5px;
+    background-color:#22b36c;
+    margin-top: -20px
+    
+    
+}
+.contact{
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+
+}
+.contact input{
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 15px;
+    border-style: none;
+    border-bottom: 2px solid gray;
+}
+.contact input:focus{
+    outline-color: blue;
+}
+.contact button{
+    padding: 20px 40px 20px 40px;
+    background-color: orange;
+    border-radius: 30px;
+}
+.contact-messages{
+    margin-top: 40px;
+}
+.contact-btn{
+    text-align: center;
+    margin-top: 50px;
+
+}
+                                               /* section5 end  */
+.footer-header{
+    background-color: #222b3c;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 20px 50px;
+}
+.footer-mine{
+    display: grid;
+    line-height: 20px;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    background-color: #22b36c;
+    gap: 50px;
+    padding: 20px 50px;
+}
+.footer-footer{
+    text-align: center;
+    background-color: #222b3c;
+    color: #f0efef;
+    padding: 20px ;
+}
+@media only screen and (max-width: 1500px){
+    header{
+
+        flex-wrap: wrap;
+    }
+    .arrows{
+        display: flex;
+
+    }
+}
+@media only screen and (max-width: 1300px) {
+    header{
+        background-size: contain;
+        
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+     }
+    .card{
+        width: 80%;
+    }
+    .card img{
+        width: 100%;
+        height: 70%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    
+    .services-logos{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+}
