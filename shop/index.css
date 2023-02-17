@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(61, 57, 51);
+}
+
+
+.header {
+    height: 100vh;
+    background: url(notebook.jpg);
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 60px;
+    margin: 20px 20px;
+    border-radius: 100px;
+}
+
+.header button:hover {
+    opacity: 0.8;
+}
+
+.nav-links {
+    padding: 28px 100px;
+
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+    width: 60px;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+
+}
+
+#btn {
+    background-color: orange;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.content h1 {
+    font-size: 65px;
+    font-weight: 600px;
+    margin-bottom: 40px;
+
+}
+
+.content form {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+
+}
+
+.content form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.content form button {
+    background: orange;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.nav-links a:hover {
+    text-decoration: underline c;
+    background-color: orange;
+    padding: 5px 7px;
+
+
+}
+.container{
+    max-width: 1500px;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    padding: 2em;
+}
+.container h1{
+    color: silver;
+    text-transform: uppercase;
+}
+.container p{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: rgb(4, 79, 4);
+    margin: 0;
+    padding: 0;
+}
+.container a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: green;
+}
+.laptop{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.laptop img{
+    width: 100%;
+    height: 70%;
+}
+.hp{
+    width: 25%;
+    height: 300px;
+    border: 2px solid black;
+    background-color: rgb(195, 161, 25);
+}
+.asus{
+    width: 25%;
+    height: 300px;
+    border: 2px solid black;
+    background-color: rgb(195, 161, 25);
+}
+.apple{
+    width: 25%;
+    height: 300px;
+    border: 2px solid black;
+    background-color: rgb(195, 161, 25);
+}
+.dif{
+    text-decoration: line-through;
+    color: red;
+    font-size: 1.5rem;
+
+
+}
+@media screen and (max-width: 1400px) {
+    .laptop{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        
+    }
+    .hp{
+        width: 60%;
+        height: 300px;
+        border: 2px solid black;
+        background-color: rgb(195, 161, 25);
+        margin: auto;
+    }
+    .asus{
+        width: 60%;
+        height: 300px;
+        border: 2px solid black;
+        background-color: rgb(195, 161, 25);
+        margin: auto;
+    }
+    .apple{
+        width: 60%;
+        height: 300px;
+        border: 2px solid black;
+        background-color: rgb(195, 161, 25);
+        margin: auto;
+    }        
+    
+}
+@media screen and (max-width:850px) {
+    .laptop{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+    .header{
+        background-position: center;
+    }
+    .nav-item2 li{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .content h1{
+        display: none;
+    }
+    .content form{
+        margin-top: 70px;
+    }
+    .content button{
+        padding: 5px 12px;
+    }
+
+
+    
+}
+@media screen and (max-width:400px){
+    .laptop{
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+               
+    }
+        .hp{
+        width: 90%;
+        height: 250px;
+
+    }
+    .asus{
+        width: 90%;
+        height: 250px;
+
+    }
+    .apple{
+        width: 90%;
+        height: 250px;
+
+    }
+    .laptop img{
+        width: 100%;
+        height: 65%;
+    }        
+}
